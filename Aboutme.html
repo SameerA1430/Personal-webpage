@@ -1,32 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
   <head>
-    <title>About Sameer</title>
-    <link rel="stylesheet" href="Aboutme.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sameers Online Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
-  <body>
-    <header>
-      <h1>Sameer Abdullah</h1>
-    </header>
-    <section class="intro">
-      <p>
-        As a dedicated computer science enthusiast, I am passionate about
-        leveraging technology to solve real-world problems. With a beginner
-        foundation in software, I thrive on tackling complex challenges and
-        continuously expanding my knowledge. My expertise spans programming
-        languages, including JavaScript, beginner pyhton, and I have hands-on
-        experience with web development. Through various projects and
-        collaborations, I have honed my skills in problem-solving, critical
-        thinking, and teamwork. I am eager to contribute to innovative projects
-        and continue my journey of learning and growth in the ever-evolving
-        field of computer science.
-      </p>
-    </section>
-    <section class="goals">
-      <p></p>
-    </section>
+  <body class="is-preload">
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <!-- Header -->
+        <header id="header">
+          <h1>Sameer Abdullah</h1>
+          <p>
+            As a dedicated computer science enthusiast, I am passionate about
+            leveraging technology to solve real-world problems. With a beginner
+            foundation in software, I thrive on tackling complex challenges and
+            continuously expanding my knowledge. My expertise spans programming
+            languages, including JavaScript, and I have hands-on experience with
+            web development. Through various projects and collaborations, I have
+            honed my skills in problem-solving, critical thinking, and teamwork.
+            I am eager to contribute to innovative projects and continue my
+            journey of learning and growth in the ever-evolving field of
+            computer science.
+          </p>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/sameer-abdullah-603ab2294/"
+                  target="_blank"
+                  class="icon brands fa-linkedin"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://github.com/SameerA1430"
+                  target="_blank"
+                  class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:sameer.abdullah926@gmail.com"
+                  class="icon solid fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <span class="copyright"
+            >&copy; Untitled. Design:
+            <a href="http://html5up.net">HTML5 UP</a>.</span
+          >
+        </footer>
+      </div>
+    </div>
+    <script>
+      window.onload = function () {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function () {
+        return false;
+      };
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+      };
+    </script>
   </body>
 </html>
-hello there:()
